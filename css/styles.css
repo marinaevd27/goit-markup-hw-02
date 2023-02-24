@@ -28,7 +28,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--iris-text-color)
+  color: #4D5AE5
 }
 
 .logo-2{
@@ -38,7 +38,7 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: var(--blue-text-color)
+  color:  #2E2F42
 }
 .logo .logo-2:hover,
 .logo .logo-2:focus{
@@ -100,6 +100,7 @@ letter-spacing: 0.02em;
 .hero {
   background: #2E2F42
 } 
+
 .main-title {
   font-weight: 700;
 font-size: 56px;
@@ -119,10 +120,13 @@ background: #4D5AE5;
 .hero .modal-btn:focus{
   color: #4D5AE5;
 }
-.hero .hero-buttons {
+.navigation .modal-btn:hover,
+.navigation .modal-btn:focus {
+  color: #4D5AE5;
+}
+.navigation {
   background: none;
 }
-
 /* Hero */
 
   
@@ -197,6 +201,8 @@ color: var(--color-of-pharaghraps);
 
 }
 /* team */
+/* navigation */
+
 
 /* footer */
 .footer {
@@ -219,8 +225,9 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
-
 }
+
+
 .footer-text {
 font-family: 'Roboto', sans-serif;;
 font-style: normal;
