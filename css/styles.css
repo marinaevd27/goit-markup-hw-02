@@ -75,8 +75,8 @@ letter-spacing: 0.02em;
 .list .mail {
   color: var(--color-of-pharaghraps);
 }
-.list .mail .mail:hover, 
-.list .mail .mail:focus {
+ .list .mail:hover, 
+ .list .mail:focus {
   color: #4D5AE5;
 }
 
@@ -115,14 +115,15 @@ line-height: 1.5;
 letter-spacing: 0.04em;
 color: #FFFFFF;
 background: #4D5AE5;
+cursor: pointer;
 }
 .hero .modal-btn:hover,
 .hero .modal-btn:focus{
-  color: #4D5AE5;
+  color: #404BBF;
 }
 .navigation .modal-btn:hover,
 .navigation .modal-btn:focus {
-  color: #4D5AE5;
+  color: #404BBF;
 }
 .navigation {
   background: none;
@@ -225,6 +226,10 @@ line-height: 1.17;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: #4D5AE5;
+}
+.logo2 .logo-footer:hover,
+.logo2 .logo-footer:focus {
+  color: var(--iris-text-color);
 }
 
 
