@@ -12,8 +12,8 @@ body {
   color:#434455;
 }
 :root {
---blue-text-color: #2E2F42
---iris-text-color: #4D5AE5
+--blue-text-color: #2E2F42;
+--iris-text-color: #4D5AE5;
 --color-of-pharaghraps: #434455;
 }
 /* header */
@@ -28,17 +28,11 @@ body {
   line-height: 1.33;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  color: #4D5AE5
+  color: var(--iris-text-color)
 }
 
 .logo-2{
-  font-family: 'Raleway', sans-serif;
-  font-weight: 800;
-  font-size: 18px;
-  line-height: 1.33;
-  letter-spacing: 0.03em;
-  text-transform: uppercase;
-  color:  #2E2F42
+  color:  var(--blue-text-color)
 }
 .logo .logo-2:hover,
 .logo .logo-2:focus{
@@ -109,21 +103,22 @@ letter-spacing: 0.02em;
 color: #FFFFFF; ;
 }
 .modal-btn{
-  font-weight: 500;
+font-weight: 500;
 font-size: 16px;
+color: var(--iris-text-color);
 line-height: 1.5;
 letter-spacing: 0.04em;
-color: #FFFFFF;
-background: #4D5AE5;
 cursor: pointer;
 }
 .hero .modal-btn:hover,
 .hero .modal-btn:focus{
-  color: #404BBF;
+  background-color:  #404BBF;
+  color: #FFFFFF;
 }
 .navigation .modal-btn:hover,
 .navigation .modal-btn:focus {
-  color: #404BBF;
+  background-color: #404BBF;
+  color: #FFFFFF;
 }
 .navigation {
   background: none;
@@ -132,8 +127,6 @@ cursor: pointer;
 
   
   /* section 1 about */
-
-
 .about {
 }
 .about-list {
@@ -147,17 +140,21 @@ cursor: pointer;
   letter-spacing: 0.02em;
   color: var(--color-of-pharaghraps);
 }
-
 .about-title {
   font-weight: 500;
-  font-size: 20px;
-  line-height: 1.2;
-  letter-spacing: 0.02em;
-  color: var(--blue-text-color);
+font-size: 20px;
+line-height: 1.2;
+letter-spacing: 0.02em;
+color: var(--blue-text-color);
+
   }
 
 .about-subtitle {
-  
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: var(--color-of-pharaghraps);
 }
 
  /* section 1 about */
@@ -168,12 +165,12 @@ cursor: pointer;
 .section-title {
   font-weight: 700;
 font-size: 36px;
-line-height: 1.11;
+line-height: 1.1;
 letter-spacing: 0.02em;
 text-transform: capitalize;
-color: var(--blue-text-color);
-
+  color: var(--blue-text-color);
 }
+
 /* section 2 */
 
 /* team */
@@ -181,10 +178,21 @@ color: var(--blue-text-color);
   background: #F4F4FD;
 }
 .team-title {
+  font-weight: 700;
+font-size: 36px;
+line-height: 1.1;
+letter-spacing: 0.02em;
+text-transform: capitalize;
+color: var(--blue-text-color) ;
 }
 .team-list {
 }
-.team-item {
+.team-item {font-weight: 700;
+  font-size: 36px;
+  line-height: 0.9;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+  
 }
 .team-item-title {
   font-weight: 500;
@@ -231,6 +239,7 @@ color: #4D5AE5;
 .logo2 .logo-footer:focus {
   color: var(--iris-text-color);
 }
+
 
 
 .footer-text {
